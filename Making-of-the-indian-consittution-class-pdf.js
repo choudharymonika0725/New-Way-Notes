@@ -1,6 +1,6 @@
 // ============================================================================
 // NEW WAY GK CLASSES • CHAPTER 01: MAKING OF THE INDIAN CONSTITUTION
-// Pure-Code Smart Presentation Notes (~38 KB • 49 Pages • Zero Subtitles • 100% Bright)
+// Pure-Code Smart Presentation Notes (~23 KB • 49 Pages • Zero Subtitles • 100% Bright)
 // Compatible with window.__NW_NOTES / window.__NW_NOTES_HTML Smart Viewer
 // ============================================================================
 (function () {
@@ -47,7 +47,6 @@
 
   var C = { a: "#f59e0b", c: "#38bdf8", g: "#10b981", r: "#f43f5e", v: "#a855f7" };
 
-  // Compact UI Builders
   function pg(num, part, title, accent, body) {
     return '<section class="nw-slide" style="--ac:' + accent + '">' +
       '<div class="nw-bar"></div>' +
@@ -73,7 +72,6 @@
   }
   function tri() { return '<div class="nw-tri"><span></span><span></span><span></span></div>'; }
 
-  // Crisp Inline Vector SVGs
   var SVG_INDIA = '<svg viewBox="-1.1 -1.5 2.6 3.0" class="nw-svgbox"><path d="M-0.22,-1.28 L-0.04,-1.38 L0.14,-1.24 L0.20,-1.06 L0.14,-0.94 L0.22,-0.80 L0.38,-0.66 L0.58,-0.54 L0.72,-0.52 L0.78,-0.62 L0.90,-0.60 L1.06,-0.68 L1.24,-0.72 L1.32,-0.58 L1.16,-0.44 L1.12,-0.24 L1.02,-0.14 L0.94,-0.28 L0.86,-0.34 L0.72,-0.34 L0.76,-0.14 L0.62,-0.04 L0.50,0.10 L0.36,0.26 L0.22,0.44 L0.16,0.68 L0.06,0.92 L-0.04,1.14 L-0.14,1.26 L-0.24,1.08 L-0.32,0.84 L-0.42,0.56 L-0.48,0.28 L-0.52,0.02 L-0.66,-0.02 L-0.86,-0.14 L-0.94,-0.26 L-0.78,-0.34 L-0.90,-0.42 L-0.74,-0.54 L-0.58,-0.68 L-0.46,-0.84 L-0.42,-1.00 L-0.36,-1.16 Z" fill="#0c3459" stroke="#7dd3fc" stroke-width="0.045"/></svg>';
   var SVG_GLOBE = '<svg viewBox="0 0 420 210" class="nw-svgbox" style="background:#060c1a;border-radius:10px;border:1px solid rgba(56,189,248,.35)">' +
     '<image href="' + IMG.earth + '" x="0" y="0" width="420" height="210" opacity="0.88"/>' +
@@ -88,7 +86,6 @@
   var SVG_SCL = '<svg viewBox="0 0 84 68" width="60"><rect x="24" y="56" width="36" height="7" rx="3" fill="#10b981"/><rect x="39" y="14" width="6" height="44" fill="#10b981"/><line x1="14" y1="20" x2="70" y2="20" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/><path d="M14 20 l-9 20 h18z M70 20 l-9 20 h18z" fill="none" stroke="#fbbf24" stroke-width="1.5"/><path d="M5 40 a9 9 0 0 0 18 0z M61 40 a9 9 0 0 0 18 0z" fill="#34d399"/></svg>';
   var SVG_ELEPHANT = '<svg viewBox="0 0 120 120" width="94"><circle cx="60" cy="60" r="56" fill="rgba(245,158,11,0.16)" stroke="#fbbf24" stroke-width="3.5"/><circle cx="60" cy="60" r="47" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5 4"/><path d="M32 76 V52 Q34 33 58 32 Q76 32 82 44 Q92 47 93 64 Q94 74 87 76 Q83 76 83 68 Q83 60 77 60 L75 79 H65 V65 H53 V79 H43 L42 63 L37 76 Z" fill="#fef08a"/><ellipse cx="63" cy="50" rx="8" ry="12" fill="#f59e0b"/><path d="M80 60 Q88 64 91 58" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>';
 
-  // 49 COMPLETE PRESENTATION PAGES (COVERING 100% OF PARTS 01–05!)
   var S = [];
 
   // --- PART 01: FOUNDATION, FORMS, TIMELINE & OFFERS ---
@@ -137,7 +134,7 @@
         '<div class="nw-tc"><div class="nw-mono" style="color:' + C.c + '">4 JULY 1776</div><div class="nw-en">USA INDEPENDENCE</div><div class="nw-hi">अमेरिका को आज़ादी मिली</div></div>' +
         '<div class="nw-tc nw-center"><div class="nw-pill" style="border-color:' + C.a + ';color:' + C.a + '">+11 YEARS • 1776 ≠ 1787</div><div class="nw-hi" style="margin-top:6px;color:#fef08a">दोनों को कभी MIX मत कीजिए!</div></div>' +
         '<div class="nw-tc"><div class="nw-mono" style="color:' + C.g + '">1787</div><div class="nw-en">CONSTITUTION TRADITION</div><div class="nw-hi">संविधान की परंपरा की शुरुआत</div></div>' +
-      '</div>', "nw-tbar"));
+      '</div>', "nw-tbar")));
 
   S.push(pg(5, "PART 01", "CONSTITUTION VS. DEMOCRACY", C.g,
     '<div class="nw-g2">' +
@@ -270,7 +267,9 @@
 
   S.push(pg(17, "PART 02", "METHOD OF ELECTION (INDIRECT)", C.c,
     card(C.c, '<div class="nw-g2"><div>' + SVG_BAL + '<div class="nw-h2" style="color:' + C.c + '">INDIRECT ELECTIONS</div><div class="nw-hi">अप्रत्यक्ष चुनाव</div></div><div><div class="nw-en">Voted by members of Provincial Legislative Assemblies (प्रांतीय विधानसभाओं के सदस्यों द्वारा वोट)।</div><div class="nw-box-a" style="margin-top:8px">★ ANALOGY: Just like RAJYA SABHA Elections today!</div></div></div>', "nw-tbar") +
-    card(C.g, '<div class="nw-tc"><div class="nw-h3" style="color:#6ee7b7">PROPORTIONAL REPRESENTATION + SINGLE TRANSFERABLE VOTE</div><div class="nw-hi">आनुपातिक प्रतिनिधित्व + एकल संक्रमणीय मत (STV)</div></div>', "nw-tbar nw-soft-g", "margin-top:10px")));
+    '<div style="margin-top:10px">' +
+      card(C.g, '<div class="nw-tc"><div class="nw-h3" style="color:#6ee7b7">PROPORTIONAL REPRESENTATION + SINGLE TRANSFERABLE VOTE</div><div class="nw-hi">आनुपातिक प्रतिनिधित्व + एकल संक्रमणीय मत (STV)</div></div>', "nw-tbar nw-soft-g") +
+    '</div>'));
 
   S.push(pg(18, "PART 02", "ELECTION RESULTS (JULY–AUG 1946) & PARTITION", C.a,
     card(C.c,
@@ -278,7 +277,9 @@
       '<div class="nw-bar-row"><span>MUSLIM LEAGUE • मुस्लिम लीग</span><div class="nw-track"><div class="nw-fill" style="width:33%;background:' + C.g + '"></div></div><b>73</b></div>' +
       '<div class="nw-bar-row"><span>INDEPENDENTS • निर्दलीय</span><div class="nw-track"><div class="nw-fill" style="width:8%;background:' + C.a + '"></div></div><b>15</b></div>' +
       '<div class="nw-hi" style="margin-top:6px;color:#fde68a">Note: Princely States stayed away initially (Praja Mandal Movements active).</div>', "nw-tbar") +
-    card(C.r, '<div class="nw-tc"><div class="nw-mono" style="color:#fda4af">AFTER MUSLIM LEAGUE BOYCOTT & PARTITION</div><div class="nw-h2">389 ➔ 299 REMAINING SEATS</div><div class="nw-en">229 Elected (निर्वाचित)  •  70 Nominated (मनोनीत)</div></div>', "nw-lbar nw-soft-r")));
+    '<div style="margin-top:10px">' +
+      card(C.r, '<div class="nw-tc"><div class="nw-mono" style="color:#fda4af">AFTER MUSLIM LEAGUE BOYCOTT & PARTITION</div><div class="nw-h2">389 ➔ 299 REMAINING SEATS</div><div class="nw-en">229 Elected (निर्वाचित)  •  70 Nominated (मनोनीत)</div></div>', "nw-lbar nw-soft-r") +
+    '</div>'));
 
   S.push(pg(19, "PART 02", "INTERIM GOVERNMENT OF INDIA (1946)", C.a,
     '<div class="nw-g2">' +
@@ -555,7 +556,6 @@
         '<div class="nw-hi1" style="margin-top:8px">हर तारीख, हर कमेटी और हर Exam Trap — Complete Revision Done!</div>' +
       '</div>', "nw-tbar nw-soft-g")));
 
-  // Scoped Anti-Copy Presentation Stylesheet (Overrides light wrapper cleanly!)
   var CSS = '<style>' +
     '@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;800&family=Noto+Sans+Devanagari:wght@500;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap");' +
     '.nw-deck{font-family:"Plus Jakarta Sans","Noto Sans Devanagari",sans-serif;color:#f8fafc;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}' +
